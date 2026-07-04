@@ -1,0 +1,135 @@
+.card {
+    background: white;
+
+    border-radius: 16px;
+
+    border: 1px solid var(--border);
+
+    box-shadow: var(--shadow-sm);
+
+    transition: .25s;
+
+    padding: 28px;
+}
+
+.card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: var(--shadow-md);
+}
+
+.job-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    border: 1px solid var(--border);
+
+    padding: 28px;
+
+    transition: .25s;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+}
+
+.job-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+}
+
+.job-top{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:flex-start;
+
+margin-bottom:20px;
+
+}
+
+.job-top h2{
+
+font-size:1.35rem;
+
+margin-bottom:6px;
+
+}
+
+.company{
+
+color:var(--text-light);
+
+font-weight:500;
+
+}
+
+.salary{
+
+background:#EFF6FF;
+
+color:var(--primary);
+
+padding:8px 14px;
+
+border-radius:999px;
+
+font-weight:600;
+
+}
+
+.job-info{
+
+margin-bottom:20px;
+
+color:var(--text-light);
+
+}
+
+.description{
+
+margin-bottom:22px;
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+.skills{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-bottom:28px;
+
+}
+
+.skill{
+
+padding:7px 14px;
+
+background:#F1F5F9;
+
+border-radius:999px;
+
+font-size:.9rem;
+
+}
+
+.job-footer{
+
+display:flex;
+
+justify-content:flex-end;
+
+}

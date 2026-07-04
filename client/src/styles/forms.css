@@ -1,0 +1,124 @@
+.page-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 56px;
+}
+
+.page-header::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--primary);
+    border-radius: 999px;
+    margin: 0 auto 20px;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.page-header p {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.form-wrapper{
+
+    display:flex;
+    justify-content:center;
+
+}
+
+.modern-form{
+
+    width:100%;
+    max-width:720px;
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:40px;
+
+    box-shadow:var(--shadow-sm);
+
+    display:flex;
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.modern-form input,
+.modern-form textarea{
+
+    width:100%;
+
+    padding:15px 18px;
+
+    border-radius:12px;
+
+    border:1px solid var(--border);
+
+    outline:none;
+
+    font-size:15px;
+
+    transition:.25s;
+
+}
+
+.modern-form input:focus,
+.modern-form textarea:focus{
+
+    border-color:var(--primary);
+
+}
+
+.error-message{
+
+    color:var(--danger);
+
+}
+
+.modern-form select {
+    width: 100%;
+    padding: 15px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    outline: none;
+    font-size: 15px;
+    background: white;
+}
+
+.modern-form select:focus {
+    border-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+
+    .modern-form {
+        padding: 24px;
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+}
+
+.success-message {
+    background: #DCFCE7;
+    color: #166534;
+    border: 1px solid #BBF7D0;
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 600;
+}

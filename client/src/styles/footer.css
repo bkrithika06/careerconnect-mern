@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 80px;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.footer-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 40px 32px;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+.footer h3 span {
+    color: var(--primary);
+}
+
+.footer p {
+    color: var(--text-light);
+    margin-bottom: 18px;
+}
+
+.footer small {
+    color: var(--text-light);
+}

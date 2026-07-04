@@ -1,0 +1,168 @@
+.hero {
+    min-height: 72vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 60px 24px 30px;
+}
+
+.hero-content {
+    max-width: 760px;
+}
+
+.hero-tag {
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 999px;
+
+    background: #EFF6FF;
+
+    color: var(--primary);
+
+    font-weight: 600;
+
+    margin-bottom: 28px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+
+    line-height: 1.1;
+
+    font-weight: 700;
+
+    color: var(--text);
+
+    margin-bottom: 24px;
+}
+
+.hero p {
+    font-size: 1.15rem;
+
+    color: var(--text-light);
+
+    margin-bottom: 40px;
+
+    line-height: 1.8;
+}
+
+.hero-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+
+    flex-wrap: wrap;
+}
+
+.jobs-header{
+
+text-align:center;
+
+margin-bottom:50px;
+
+}
+
+.jobs-header h1{
+
+font-size:2.8rem;
+
+margin-bottom:14px;
+
+}
+
+.jobs-header p{
+
+color:var(--text-light);
+
+font-size:1.1rem;
+
+}
+
+.search-container{
+    margin-bottom:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.search-input{
+    width:100%;
+    max-width:600px;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    border:1px solid var(--border);
+
+    font-size:16px;
+
+    transition:.25s;
+
+    outline:none;
+}
+
+.search-input:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 4px rgba(37,99,235,.08);
+
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+    margin-bottom: 56px;
+}
+
+.feature-grid h3 {
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+}
+
+.feature-grid p {
+    color: var(--text-light);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-input {
+        max-width: 100%;
+    }
+
+    .jobs-header h1 {
+        font-size: 2.2rem;
+    }
+}
+.section-alt {
+    background: #F8FAFC;
+    border-top: 0.5px solid #E5E7EB;
+    border-bottom: 0.5px solid #E5E7EB;
+}
